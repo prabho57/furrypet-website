@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width:1500px;
+  margin: 0 auto;
+}
+q {
+  display:flex;
+  background: #313131;
+  text-align: center;
+  color: #fff;
+  justify-content: center;
+  padding: 10px;
+  font-family: sans-serif;
+  font-size:25px;
+}
+.logo img {
+  width: 100px;
+  display:flex;
+}
+.logo{
+  font-family:cursive;
+  font-weight:bold;
+  margin-top: 5px;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff;
+  margin-top: 25px;
+ }
+.nav-list {
+  display:flex;
+  list-style: none;
+ }
+
+.nav-list .Item a {
+  text-decoration: none;
+  color: #313131;
+  font-weight: bold;
+  padding: 23px;
+  font-family: sans-serif;
+  font-size: 1.5rem;
+}
+.btn-container {
+  display: flex;
+  gap: 10px;
+  border-color: #313131;
+}
+.btn {
+  padding: 8px 15px;
+  border: none;
+  background-color: #313131;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #daae52;
+}
+.hero-section{
+  border: 2px solid red;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 35px;
+  padding: 15px 20px;
+  font-family:sans-serif;
+  font-size:xxx-large;
+  overflow: auto;
+  text-align: center;
+  background-color: #313131;
+  color: #fff;
+}
+.sidebar{
+  width: 25%;
+  padding:35px;
+  height: 60vh;
+  overflow-x: auto;
+  font-size: large;
+  margin-top: 25px;
+  font-family: sans-serif;
+  line-height:2;
+  border-color: #c40e0e;
+  background-image: url(7shizu.jpg);
+  color:#313131;
+  font-weight: bold;
+}
+.sidebar0{
+  height: 20vh;
+ }
+ /*  
+.images-container{
+  border: 2px solid red;
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+
+}
+  */
+  .images-container{
+    border: 2px solid red;
+ 
+    position:absolute;
+    top: 31%;
+    left: 42%;
+    transform: translate(-8%, 6%);
+    height: auto;
+    padding: 24px 30px;
+    
+}
+.photos{
+   border:2px solid red;
+    width: 35%;
+    padding: 5px 15px;
+    margin-left: 4vh;
+    transition: box-shadow 0.3s ease;
+}
+.photos:hover{
+  box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.6);
+}

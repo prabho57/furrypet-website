@@ -22,6 +22,9 @@ q {
   border: 2px solid orange;
   margin-top: 50px;
 }
+.aside {
+  width: 25%;
+}
 .logo img {
   width: 100px;
   display:flex;
@@ -100,6 +103,9 @@ q {
 .sidebar0{
   height: 20vh;
  }
+ .images-container {
+  width: 75%;
+ }
  /*  
 .images-container{
   border: 2px solid red;
@@ -112,7 +118,7 @@ q {
 
 .photos{
    border:2px solid red;
-    width: 35%;
+    width: 340px;
     padding: 5px 15px;
     margin-left: 4vh;
     transition: box-shadow 0.3s ease;

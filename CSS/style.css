@@ -148,7 +148,6 @@ q {
 .cont-1,
 .cont-2,
 .cont-3 {
- 
   padding: 45px;
   margin: 10px;
   text-align: center;
@@ -190,7 +189,7 @@ h3 {
 
 /* Section 3 */
 .div-container2 {
-   display: flex;
+  display: flex;
   flex-direction: row;
   padding: 25px;
   justify-content: space-evenly;
@@ -198,39 +197,38 @@ h3 {
   height: auto;
   margin-top: 25px;
 }
-.div-container2:hover{
+.div-container2:hover {
   border: 2px solid #fff;
   box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.6);
 }
 .div-class1,
 .div-class2 {
-   width: 48%;
+  width: 48%;
   height: auto;
 }
 
 .dog {
-   width: 60%;
+  width: 60%;
   padding: 5px 15px;
   margin: 15px;
   transition: box-shadow 0.3s ease;
 }
-.dog0{
-    margin-top: -20vh;
-    margin-left: 30vh;
-    width: 35vh;
+.dog0 {
+  margin-top: -20vh;
+  margin-left: 30vh;
+  width: 35vh;
 }
-.dog:hover{
-box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.6);
+.dog:hover {
+  box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.6);
   cursor: pointer;
   border: 2px solid #fff;
- }
-.dog0:hover{
-opacity: 0.1;
-border: 2px solid #fff;
+}
+.dog0:hover {
+  opacity: 0.1;
+  border: 2px solid #fff;
   box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.6);
 }
 .content {
- 
   display: flex;
   flex-flow: column;
   gap: 10px;
@@ -239,7 +237,7 @@ border: 2px solid #fff;
   font-family: sans-serif;
   color: #313131;
   margin-top: 70px;
- }
+}
 /* .div-container content part */
 .First {
   display: flex;
@@ -251,12 +249,12 @@ border: 2px solid #fff;
   width: 30px;
 }
 .big {
-    display: flex;
+  display: flex;
   margin-top: 30px;
   justify-content: center;
   width: 100%;
   height: auto;
- }
+}
 .About {
   display: flex;
   flex-direction: column;
@@ -269,17 +267,17 @@ border: 2px solid #fff;
   height: auto;
 }
 .About-span {
-    display: flex;
-    gap: 5px;
-    width: 100%;
-  }
-.About-span:hover{
+  display: flex;
+  gap: 5px;
+  width: 100%;
+}
+.About-span:hover {
   border: 2px solid #fff;
   box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.6);
 }
 
 /* Button */
-.About-us{
+.About-us {
   padding: 8px 20px;
   border: none;
   background-color: #313131;
@@ -288,13 +286,37 @@ border: 2px solid #fff;
   cursor: pointer;
   font-size: 16px;
 }
-.About-us:hover{
+.About-us:hover {
   background-color: #fff;
   color: #313131;
   border: 2px solid #fff;
   box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.6);
   cursor: pointer;
 }
-.btn-span{
+.btn-span {
   margin-top: 34px;
+}
+/* Section-fifth-styling */
+.section-fifth {
+  border: 2px solid red;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  max-width: 100%;
+  height: auto;
+}
+.section-fifth-firstdiv {
+  border: 2px solid blue;
+    padding: 5px;
+    display: flex;
+    width: 100%;
+}
+.section-fifth-pricelistdiv1 {
+  border: 2px solid rgb(8, 141, 8);
+  padding: 5px;
+}
+.Pricelist-img {
+  border: 2px solid purple;
+  width: 5%;
 }

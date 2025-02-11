@@ -311,12 +311,54 @@ h3 {
     padding: 5px;
     display: flex;
     width: 100%;
+    height: auto;
+    margin: 5px;
 }
 .section-fifth-pricelistdiv1 {
   border: 2px solid rgb(8, 141, 8);
   padding: 5px;
+    width: 100%;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    border-radius: 5%;
+}
+.pricelistdiv2{
+margin-top: 25px;
 }
 .Pricelist-img {
   border: 2px solid purple;
-  width: 5%;
+  width: 100px;
+  height: 100px;
+
+}
+.section-fifth-pricelist-container{
+  border: 2px solid palevioletred;
+  color: #646464;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  column-gap: 15px;
+  line-height: 32px;
+    padding: 10px 30px 10px 30px;
+    font-size: 22px;
+   font-family: sans-serif;
+}
+.section-fifth-pricelist{
+  border: 2px solid rgb(212, 20, 20);
+  text-decoration: none;
+}
+.section-fifth-pricelist-Item{
+border: 2px solid purple;
+}
+.pricelist-hour{
+  border: 2px solid brown;
+  text-decoration: none;
+}
+.pricelist-bold{
+  text-decoration: none;
+  border: 2px solid blue;
+  margin-left: 55px;
 }

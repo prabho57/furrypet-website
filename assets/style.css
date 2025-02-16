@@ -244,7 +244,6 @@ h3 {
   flex-direction: row;
   gap: 3px;
   align-items: anchor-center;
-  margin: 0px 0px 10px;
 }
 .paw {
   width: 30px;
@@ -299,17 +298,16 @@ h3 {
 }
 /* Section-fifth-styling */
 .section-fifth {
+  border: 2px solid red;
+  padding: 5px;
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
   max-width: 100%;
   height: auto;
 }
-.section-fifth:hover{
-  border: 2px solid #fff;
-  box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.6);
-  cursor: pointer;
-}
 .section-fifth-firstdiv {
+  border: 2px solid blue;
   padding: 5px;
   display: flex;
   width: 100%;
@@ -318,92 +316,57 @@ h3 {
   font-family: sans-serif;
   color: #313131;
 }
-.firstdivcontent{
-align-items: center;
-width: 94%;
-
-}
-.divcontentfirst{
-  width: 86%;
-  height: 60%;
-}
-
-.contectheading{
-  font-size: 45px;
-  margin-bottom: 15px;
-}
-
-.contectpara{
-  font-size: 16px;
-  color: #646464;
-  margin-bottom: 18px;
-  font-weight: 550;
-}
-
 
 .section-fifth-pricelistdiv1 {
+  border: 2px solid rgb(8, 141, 8);
   padding: 5px;
   width: 100%;
+
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 50px;
   border-radius: 5%;
-  border: 1px solid grey;
-  border-bottom: none;
-  border-right: none;
 }
 .pricelistdiv2 {
-  margin-top: 40px;
-    border: 1px solid grey;
-    border-right: none;
+  margin-top: 25px;
 }
 .Pricelist-img {
+  border: 2px solid purple;
   width: 130px;
   height: 140px;
 }
 .section-fifth-pricelist-container {
+  border: 2px solid palevioletred;
   color: rgb(100, 100, 100);
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  line-height: 35px;
-  font-size: 22px;
-  font-family: sans-serif;
-  margin-top: -25px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    line-height: 35px;
+    font-size: 22px;
+    font-family: sans-serif;
+    margin-bottom: 32px;
 }
+.section-fifth-pricelist {
+  border: 2px solid rgb(212, 20, 20);
 
+}
 .section-fifth-pricelist-Item {
+  border: 2px solid purple;
   margin: 12px;
-  width: 95%;
-  height: auto;
-  display: inline-flex;
-  justify-content: space-between;
-  font-family: sans-serif;
+    width: 95%;
+    height: auto;
+    display: inline-flex;
+    justify-content: space-between;
+    font-family: sans-serif;
 }
-.pricelist-headingdiv{
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  padding: 28px;
-  border-top: none;
-  border-radius: 10px;
-  /* border-start-end-radius: 20px;
-  border-end-start-radius: 31px; */
-  background-color:#313131;
-  color: #fff;
-}
+.pricelist-hour {
+  border: 2px solid brown;
 
-.pricelist-h2 {
-  font-size: 16px;
-  font-weight: 500;
-  text-align: center;
-  margin-top: 20px;
 }
-
 .pricelist-bold {
- 
-  color: #313131;
+border: 2px solid blue;
+color: #313131;
 }
 .pricelist-btn {
   display: inline-flex;
@@ -417,29 +380,19 @@ width: 94%;
   border: none;
   background-color: #313131;
   color: white;
-  border-radius: 177px;
+  border-radius: 15px;
   cursor: pointer;
   font-size: 16px;
-  font-weight: 550;
-  margin-bottom: 9px;
 }
-.section-fifth-spanbtn{
-  display: inline-flex;
-  margin-top: 50px;
-}
-.registernow {
-  padding: 21px 51px;}
-
 .booknow0 {
   border: 1px solid #313131;
   background-color: #fff;
   color: #313131;
   padding: 8px 20px;
   border: 1px solid #313131;
-  border-radius: 177px;
+  border-radius: 17px;
   cursor: pointer;
   font-size: 16px;
-  margin-bottom: 9px;
 }
 .booknow0:hover {
   background-color: #313131;
